@@ -8,14 +8,14 @@ class Solution:
             if letter in s_seen:
                 s_seen[letter] += 1
             else:
-                s_seen[letter] = 0
+                s_seen[letter] = 1
 
         t_seen = {}
         for letter in t:
             if letter in t_seen:
                 t_seen[letter] += 1
             else:
-                t_seen[letter] = 0
+                t_seen[letter] = 1
 
         for key, value in t_seen.items():
             if key in s_seen:
