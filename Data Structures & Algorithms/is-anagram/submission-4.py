@@ -7,3 +7,6 @@ class Solution:
             return False
         else:
             return True
+
+# The dictionary counting has a time complexity of O(n), while this has a time complexity of O(nlogn) due to sorting. So this would be a bit slower. 
+# Space complexity of this solution: O(n) since sorting creates a new list in the memory. (dictionary solution: O(n))
